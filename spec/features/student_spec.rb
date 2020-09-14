@@ -54,7 +54,6 @@ end
 describe 'Activate page' do
   before do
     @student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
-    binding.pry
   end
 
   it "Should mark an inactive student as active" do
